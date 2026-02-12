@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { DndContext, closestCenter } from '@dnd-kit/core'
-import Card from './components/Card'
+
 import Column from './components/Column'
 import './App.css'
 
