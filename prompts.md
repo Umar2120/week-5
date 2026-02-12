@@ -1,0 +1,3 @@
+1.i'm building a to do application using  react . can you provide me a basic 3 column layout for the application with a search bar and a button to add a new task and a button to delete a task inside card and switch them by button from one to another column.
+2.save the tasks to localstorage.when i refresh the page the tasks should be loaded from localstorage.and still the saved data should be there.
+3.help me to add a feature to drag and drop the tasks between the columns using dnd-kit.
