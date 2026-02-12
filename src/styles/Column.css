@@ -1,0 +1,36 @@
+.column {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 20px;
+  min-height: 600px;
+}
+
+.column-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+}
+
+.column.todo .column-title {
+  color: #e70808;
+  border-bottom-color: #e70808;
+}
+
+.column.in-progress .column-title {
+  color: #ffd93d;
+  border-bottom-color: #ffd93d;
+}
+
+.column.done .column-title {
+  color: #19d73f;
+  border-bottom-color: #19f044;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

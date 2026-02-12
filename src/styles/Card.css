@@ -1,0 +1,132 @@
+.card {
+  border-radius: 80px 10px;
+  padding: 15px;
+  border-left: 4px solid;
+  transition: box-shadow 0.3s, transform 0.2s;
+  position: relative;
+ 
+}
+
+.card:active {
+  cursor: grabbing;
+}
+.card {
+  cursor: grab;
+}
+.drag-handle {
+  cursor: grab;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.drag-handle:active {
+  cursor: grabbing;
+}
+
+.card:active {
+  cursor: grabbing;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+}
+
+.card-content {
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50px;
+  transition: background-color 0.2s;
+}
+
+.card-content:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.priority-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 50px;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.edit-input {
+  padding: 8px 12px;
+  border: 2px solid #667eea;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.edit-input:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.card-buttons {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  pointer-events: auto;
+}
+
+.btn {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s;
+  font-weight: 600;
+  color: white;
+}
+
+.btn-delete {
+  background-color: rgba(0, 0, 0, 0.3);
+  flex-shrink: 0;
+}
+
+.btn-delete:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-move {
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 11px;
+  padding: 5px 8px;
+}
+
+.btn-move:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-save {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.btn-save:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.btn-cancel {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.btn-cancel:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
